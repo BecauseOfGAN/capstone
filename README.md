@@ -23,3 +23,9 @@
 
 ------
 
+## Result
+
+1. real without augmentation
+2. real with augmentation
+3. real & fake without augmentation
+4. real & fake with augmentation
