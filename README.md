@@ -4,7 +4,7 @@
 
 ## Dataset
 
-dataset is from kaggle below link 
+데이터셋은 캐글 대회에서 
 
 https://www.kaggle.com/c/body-morphometry-kidney-and-tumor/data
 
