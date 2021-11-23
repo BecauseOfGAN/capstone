@@ -1,7 +1,8 @@
 # GAN-based Synthetic Medical Image Augmentation for increased CNN Performance
 ## 2021 Hallym University Capstone Design
------ 
+
 Team Members:
+
 이승리, 서영재, 서원진, 최재홍
 -----
 
