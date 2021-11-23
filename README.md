@@ -14,7 +14,7 @@ Team Members:
 
 데이터는 
 
-(./img/ct1.png)
+![데이터 구조](./img/ct1.png)
 
 
 
