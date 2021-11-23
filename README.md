@@ -4,9 +4,7 @@
 
 ## Dataset
 
-데이터셋은 캐글 대회에서 
-
-https://www.kaggle.com/c/body-morphometry-kidney-and-tumor/data
+데이터셋은 캐글 대회에서 제공한 데이터입니다. [**MOAI 2021 Body Morphometry AI Segmentation Online Challenge**] (https://www.kaggle.com/c/body-morphometry-kidney-and-tumor/data)
 
 
 ## Model
