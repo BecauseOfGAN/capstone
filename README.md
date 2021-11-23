@@ -1,5 +1,8 @@
 # GAN-based Synthetic Medical Image Augmentation for increased CNN Performance
+## 2021 Hallym University Capstone Design
 
+Team Members:
+이승리, 서영재, 서원진, 최재홍
 -----
 
 ## Dataset
@@ -7,6 +10,8 @@
 데이터셋은 캐글 대회에서 제공한 데이터입니다. 
 
 [**MOAI 2021 Body Morphometry AI Segmentation Online Challenge**](https://www.kaggle.com/c/body-morphometry-kidney-and-tumor/data)
+
+데이터는 
 
 
 
