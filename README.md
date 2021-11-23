@@ -14,6 +14,8 @@ Team Members:
 
 데이터는 
 
+(./img/ct1.png)
+
 
 
 
