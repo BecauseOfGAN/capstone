@@ -4,7 +4,7 @@
 
 ## Dataset
 
-dataset is from kaggle below link 
+dataset is from kaggle below link / 
 https://www.kaggle.com/c/body-morphometry-kidney-and-tumor/data
 
 
