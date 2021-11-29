@@ -73,17 +73,29 @@ Team Members:
 <img src = "https://user-images.githubusercontent.com/65914440/143835167-8d02e12a-48f8-4f7e-b273-9fb800c70b9b.png" width = "500" height = "300"> <img src = "https://user-images.githubusercontent.com/65914440/143835318-9befb607-e42f-4643-ad3e-a46b04bda5e5.png"  width = "400" height = "300">
 
 
-<Fsdfasf>
+　　　　　　　　　　　　　　< Pix2Pix >　　　　　　　　　　　　　　　　　　　　　　　　< Our Case >
 - 기존의 GAN은 noise를 사용하여 학습을 진행해 랜덤한 이미지가 나오지만 Pix2Pix는 지도 학습으로 인풋 이미지가 segmentation이미지, 라벨 이미지는 원본 데이터로 학습을 진행한다.
 
 ------
 
-## Result
+## Experiments
 
-1. real without augmentation
-2. real with augmentation
-3. real & fake without augmentation
-4. real & fake with augmentation
+### Hyper-Parameter
+
+![image](https://user-images.githubusercontent.com/65914440/143837316-2475ec46-219d-420c-bc1b-d2f5b0862497.png)
+
+- 모든 학습은 위에 있는 하이퍼 파라미터로 Loss는 DiceLoss, optimizer는 Adam, learning rate는 0.001, epoch은 100과 scheduler를 사용하여 학습을 진행했다.
+
+### U-Net
+
+- U-Net은 가벼운 모델과 무거운 모델로 총 2가지의 버전을 만들었는데, 두 모델의 차이는 파라미터가 얼마나 많고 적냐의 차이다.
+
+### Experiment Cases
+
+![image](https://user-images.githubusercontent.com/65914440/143837130-90b94fd4-18d6-44d6-9dd8-a49998c9bd1c.png)
+
+- 우선적으로 직접 구성한 2개의 U-Net으로 실험을 했다. 다른 모델에서도 가짜 데이터 증강으로 인한 성능향상이 적용되는지 확인하기 위해 Pretrain된 FPN으로도 실험을 진행했다.
+
 
 
 ## later work
