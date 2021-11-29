@@ -24,7 +24,8 @@ Real image : 6400장
 
 Fake image : 1333장
 
-![데이터 사진] 
+dataset_fake![image](https://user-images.githubusercontent.com/65914440/143831332-65a3fa78-e8be-4750-a63f-4f78152b5781.png)
+ 
 
 
 ## Data pre-processing
