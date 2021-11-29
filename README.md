@@ -26,7 +26,7 @@
  
 
 
-## Data pre-processing
+### Data pre-processing
 
 - 전체 데이터를 Train dataset(70%), Validation dataset(20%)와 Test dataset(10%)으로  
   분류했다. Fake data가 추가될 경우에는 train dataset에만 포함되도록 했다.
