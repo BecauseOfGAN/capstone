@@ -36,6 +36,7 @@
 - 최대-최소 정규화를 했다.
 
 <img src = "https://user-images.githubusercontent.com/65914440/143833289-f15255cd-596a-479c-a463-201e15f58ebf.png" width = "800" height = "400">
+
 - Segmentation 모델의 예측의 채널은 훈련된 클래스의 갯수와 동일합니다. 
   각각의 채널이 하나의 클래스를 대표한다. 
   모든 클래스를 포함한 Label을 클래스별로 채널을 나눠주는 작업이 필요하다. 
