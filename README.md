@@ -108,7 +108,7 @@
 - 교집합 영역 넓이 / 합집합 영역 넓이로 iou score가 계산된다.
 - 최종 Test  성능측정에선 한장마다의 IoU 값을 평균내어 사용함
 
-## Limitations & Future Plan
+### Limitations & Future Plan
 
 ## 6. Conclusion
 신장과 종양 형태는 매우 다양하기 때문에 신장과 종양의 형태를 고려한 수술 계획 기술과 수술 결과와의 연관성, 그리고 이러한 기술들의 발전에 대한 관심이 많다. 신장과 신장암의 Segmentation 기술은 이러한 노력과 발전을 위한 유망한 도구로써 사용된다. 
