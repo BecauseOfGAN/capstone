@@ -5,7 +5,21 @@
 
 -----
 
-### 1. Project Overview
+## Contents
+1. [소개 : 프로젝트에 대한 기본적 소개 및 목적](#Project Overview)
+2. [팀 : 팀원 및 역할](#Dataset)
+3. [구축 DNN 모델 : 프로젝트 해결을 위한 구축모델 정의](#DNN-Model)
+4. [문제해결 : 프로젝트를 해결과정](#Dataset)
+    - [Data : 사용 데이터 셋](#Data)
+    - [Seg-DNN : 뇌종양 검출모델](#Seg-DNN)
+    - [Tumor Generator : 가짜 뇌종양 라벨 데이터 생성](#tumor-Generator)
+    - [Brain Generator : 가짜 뇌종양 뇌 MRI 데이터 생성](#Brain-Generator)
+5. [결과 : 프로젝트의 결과](#Result)
+5. [기대효과 : 프로젝트를 의의 및 확장성](#Benefit)
+
+
+
+## 1. Project Overview
 ![image](https://user-images.githubusercontent.com/65914440/143834784-fe862ba8-fb04-493c-b142-bbf2a94241dd.png)
  먼저 일반 데이터와 기본적인 augmentation을 적용하여 학습을 진행한다. 모델은 U-Net구조를 참고하여 구축하고 성능을 확인한다. Pix2Pix를 통해 생성된 fake image를 train dataset에 추가한다. 그 후 새로 구성한 데이터셋으로 Segmentation 작업을 수행하는데 정확한 비교를 위해 하이퍼 파라미터의 값은 고정하여 학습을 진행한다.
 
