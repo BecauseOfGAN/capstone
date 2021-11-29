@@ -97,6 +97,18 @@ Team Members:
 - 우선적으로 직접 구성한 2개의 U-Net으로 실험을 했다. 다른 모델에서도 가짜 데이터 증강으로 인한 성능향상이 적용되는지 확인하기 위해 Pretrain된 FPN으로도 실험을 진행했다.
 
 
+## Result
+
+### Evaluation Metrics
+
+![image](https://user-images.githubusercontent.com/65914440/143838038-13e1bda4-8f67-4e32-8d3f-4c5d2ce94be6.png)
+
+#### IoU (Intersection over Union)
+- 라벨링된 영역과 예측한 영역이 정확히 같다면, 1이되며 그렇지 않을 경우에는 0이 된다.
+- 교집합 영역 넓이 / 합집합 영역 넓이로 iou score가 계산된다.
+- 최종 Test  성능측정에선 한장마다의 IoU 값을 평균내어 사용함
+
+
 
 ## later work
 -sdfsadf
