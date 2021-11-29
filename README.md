@@ -5,11 +5,11 @@
 
 -----
 
-### Project Overview
+### 1. Project Overview
 ![image](https://user-images.githubusercontent.com/65914440/143834784-fe862ba8-fb04-493c-b142-bbf2a94241dd.png)
  먼저 일반 데이터와 기본적인 augmentation을 적용하여 학습을 진행한다. 모델은 U-Net구조를 참고하여 구축하고 성능을 확인한다. Pix2Pix를 통해 생성된 fake image를 train dataset에 추가한다. 그 후 새로 구성한 데이터셋으로 Segmentation 작업을 수행하는데 정확한 비교를 위해 하이퍼 파라미터의 값은 고정하여 학습을 진행한다.
 
-## Dataset
+## 2. Dataset
 
 <img src = "https://user-images.githubusercontent.com/65914440/143831739-ddbbe9fa-6ac7-4f11-9e6c-66a33bde7794.png" width = "400" height = "200"> <img src = "https://user-images.githubusercontent.com/65914440/143831332-65a3fa78-e8be-4750-a63f-4f78152b5781.png"  width = "400" height = "200">
 
@@ -46,7 +46,7 @@
 
 
 
-## Model
+## 3. Model
 
 ### U-net (our Model)
 ![image](https://user-images.githubusercontent.com/65914440/143835011-128ade6f-dc06-499d-a11e-a74fd717e8ef.png)
@@ -77,7 +77,7 @@
 
 ------
 
-## Experiments
+## 4. Experiments
 
 ### Hyper-Parameter
 
@@ -96,7 +96,7 @@
 - 우선적으로 직접 구성한 2개의 U-Net으로 실험을 했다. 다른 모델에서도 가짜 데이터 증강으로 인한 성능향상이 적용되는지 확인하기 위해 Pretrain된 FPN으로도 실험을 진행했다.
 
 
-## Result
+## 5. Result
 
 ### Evaluation Metrics
 
@@ -109,7 +109,7 @@
 
 ## Limitations & Future Plan
 
-## Conclusion
+## 7. Conclusion
 신장과 종양 형태는 매우 다양하기 때문에 신장과 종양의 형태를 고려한 수술 계획 기술과 수술 결과와의 연관성, 그리고 이러한 기술들의 발전에 대한 관심이 많다. 신장과 신장암의 Segmentation 기술은 이러한 노력과 발전을 위한 유망한 도구로써 사용된다. 
 
  본 과제물에서는 가상의 신장과 종양 데이터를 생성하고 이를 활용하여 신장 및 종양 검출 모델의 성능을 개선시켰다. 가상 데이터가 신장 종양 검출 모델의 성능을 개선시켰으므로, GAN으로 생성한 가상 데이터가 유의미한 데이터임을 입증하였다. GAN을 통해 부족한 데이터를 증강하는 것 자체가 가치 있는 과정이며, 이를 통해 인공지능 성능들을 높일 수 있다. 
