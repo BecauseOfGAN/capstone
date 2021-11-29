@@ -49,18 +49,32 @@ Team Members:
 
 ## Model
 
-### 1.FPN (Pretrained)
+### U-net (our Model)
+![image](https://user-images.githubusercontent.com/65914440/143835011-128ade6f-dc06-499d-a11e-a74fd717e8ef.png)
 
-
-### 2. U-net (our Model)
-
+### Contraction Path(수축 단계)
+  -  3x3 convolutions을 두 차례씩 반복 padding X
+  -  활성화 함수 : ReLU
+  -  2x2 max-pooling (stride:2)
+  -  Down-sampling 마다 채널의 수를 2배로 늘림
+### Expanding Path(팽창 단계)
+  -  2x2 convolution (up –convolution)
+  -  3x3 convolutions을 두 차례씩 반복 padding x
+  -  Up-ConV 를 통한  Up-sampling 마다 채널의 수를 반으로 줄임
+  -  활성화 함수 : ReLU 
+  -  Up-Conv된 feature map은 Contracting path의 테두리가 Cropped된 
+     feature map과 concatenation 함
+  -  마지막 레이어에 1x1 convolution 연산
 ------
 
 ## GAN
 
 ### Pix2Pix
-- make new data to improve CNN acc.
+<img src = "https://user-images.githubusercontent.com/65914440/143835167-8d02e12a-48f8-4f7e-b273-9fb800c70b9b.png" width = "500" height = "300"> <img src = "https://user-images.githubusercontent.com/65914440/143835318-9befb607-e42f-4643-ad3e-a46b04bda5e5.png"  width = "400" height = "300">
 
+
+<Fsdfasf>
+- 기존의 GAN은 noise를 사용하여 학습을 진행해 랜덤한 이미지가 나오지만 Pix2Pix는 지도 학습으로 인풋 이미지가 segmentation이미지, 라벨 이미지는 원본 데이터로 학습을 진행한다.
 
 ------
 
