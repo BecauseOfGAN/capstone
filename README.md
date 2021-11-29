@@ -17,9 +17,28 @@ Team Members:
 
 [**MOAI 2021 Body Morphometry AI Segmentation Online Challenge**](https://www.kaggle.com/c/body-morphometry-kidney-and-tumor/data)
 
-데이터는 
-
+Real image : 6400장
 ![데이터 구조](./img/ct1.png)
+
+
+
+Fake image : 1333장
+
+![데이터 사진] 
+
+
+## Data pre-processing
+
+- 전체 데이터를 Train dataset(70%), Validation dataset(20%)와 Test dataset(10%)으로  
+  분류했다. Fake data가 추가될 경우에는 train dataset에만 포함되도록 했다.
+- CT이미지는 신체부위에 따라 WW(Window Width:픽셀값의 범위)와 WL(Window Center:기준이 되는 픽셀값)을 조절해 이미지를 사용합니다. 
+  저희는 실험적으로 해보며 학습이 가장 잘되는 WW는 400, WL은 0으로 조정했다.
+- 최대-최소 정규화를 했다.
+- Segmentation 모델의 예측의 채널은 훈련된 클래스의 갯수와 동일합니다. 
+  각각의 채널이 하나의 클래스를 대표한다. 
+  모든 클래스를 포함한 Label을 클래스별로 채널을 나눠주는 작업이 필요하다. 
+  우리는 하나의 채널로 구성되었던 Label을 2채널로 나누어 0채널은 신장, 1채널에는 종
+  양으로 구성했다.  
 
 
 
