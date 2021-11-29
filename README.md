@@ -6,6 +6,11 @@ Team Members:
 
 -----
 
+## Project Overview
+
+
+ 먼저 일반 데이터와 기본적인 augmentation을 적용하여 학습을 진행한다. 모델은 U-Net구조를 참고하여 구축하고 성능을 확인한다. Pix2Pix를 통해 생성된 fake image를 train dataset에 추가한다. 그 후 새로 구성한 데이터셋으로 Segmentation 작업을 수행하는데 정확한 비교를 위해 하이퍼 파라미터의 값은 고정하여 학습을 진행한다.
+
 ## Dataset
 
 데이터셋은 캐글 대회에서 제공한 데이터입니다. 
