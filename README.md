@@ -17,14 +17,14 @@ Team Members:
 
 [**MOAI 2021 Body Morphometry AI Segmentation Online Challenge**](https://www.kaggle.com/c/body-morphometry-kidney-and-tumor/data)
 
-Real image : 6400장
+Real image : 6400장,Fake image : 1333장
 ![데이터 구조](./img/ct1.png)
-
-
-
-Fake image : 1333장
-
 dataset_fake![image](https://user-images.githubusercontent.com/65914440/143831332-65a3fa78-e8be-4750-a63f-4f78152b5781.png)
+
+
+
+
+
  
 
 
