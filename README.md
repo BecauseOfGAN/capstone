@@ -70,7 +70,7 @@
 ## GAN
 
 ### Pix2Pix
-<img src = "https://user-images.githubusercontent.com/65914440/143835167-8d02e12a-48f8-4f7e-b273-9fb800c70b9b.png" width = "350" height = "300"> <img src = "https://user-images.githubusercontent.com/65914440/143835318-9befb607-e42f-4643-ad3e-a46b04bda5e5.png"  width = "300" height = "300">
+<img src = "https://user-images.githubusercontent.com/65914440/143835167-8d02e12a-48f8-4f7e-b273-9fb800c70b9b.png" width = "400" height = "300"> <img src = "https://user-images.githubusercontent.com/65914440/143835318-9befb607-e42f-4643-ad3e-a46b04bda5e5.png"  width = "300" height = "300">
 
 
 　　　　　　　　　　　　　　< Pix2Pix >　　　　　　　　　　　　　　　　　　　　　　　　< Our Case >
