@@ -43,7 +43,7 @@
   우리는 하나의 채널로 구성되었던 Label을 2채널로 나누어 0채널은 신장, 1채널에는 종
   양으로 구성했다.  
 
-<img src = "https://user-images.githubusercontent.com/65914440/143834221-3b8986f8-929c-4772-a662-e8c8a3f5ccc6.png" width = "400" height = "200"> <img src = "https://user-images.githubusercontent.com/65914440/143834230-0928de6e-ef18-4e5e-bd1a-281df6ad4352.png"  width = "200" height = "200">
+<img src = "https://user-images.githubusercontent.com/65914440/143834221-3b8986f8-929c-4772-a662-e8c8a3f5ccc6.png" width = "400" height = "300"> <img src = "https://user-images.githubusercontent.com/65914440/143834230-0928de6e-ef18-4e5e-bd1a-281df6ad4352.png"  width = "200" height = "300">
 
 
 
