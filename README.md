@@ -108,6 +108,9 @@
 - 교집합 영역 넓이 / 합집합 영역 넓이로 iou score가 계산된다.
 - 최종 Test  성능측정에선 한장마다의 IoU 값을 평균내어 사용함
 
+### Result
+![image](https://user-images.githubusercontent.com/90440043/144424001-b901545f-860e-49a8-bf88-b66238529a1f.png)
+
 ### Limitations & Future Work
 
 1. 실험 환경이 열악했다. 에폭수, 로스
